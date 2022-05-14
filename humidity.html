@@ -16,21 +16,24 @@
       <title>Weather Plots</title>
         <!-- <link rel="stylesheet" href="style.css"> -->
         <link rel="stylesheet" href="bootstrap.css">
+        <style>
+          h3 {
+            margin-top: 25px;
+            
+          }
+          </style>
     </head>
-<!-- Start of navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Latitude</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
-      
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-    
+    <body>
+   <!-- Start of navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" 
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false"> 
@@ -49,22 +52,55 @@
           <li class="nav-item">
             <a class="nav-link" href="comparisons.html">Comparisons</a>
           </li>
+        </ul>
       </div>
     </div>
-</nav>
+  </nav>
+<!-- end of navbar -->
 
-    <body>
-  
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-8">
+            <h3>vs. Humidity</h3>
+              <img src=Resources/assets/images/Fig2.png alt="">
+          </div>
+              <div class="col-4">
+            <h3 align="center">Visualizations</h3>
+              <div class="row row-cols-2">
+                <div class="col"> 
+                  <div>
+                   <h6>Max Temperature</h6>
+                    <a href="max_temp.html"><img width="250 px" height="200 px" src="Resources/assets/images/Fig1.png" alt="Max Temp"
+                      class="imageNav-photo"></a>
+                  </div>
+                </div>
+                  <div>
+                    <h6>Humidity</h6>
+                     <a href="humidity.html"><img width="250 px" height="200 px" src="Resources/assets/images/Fig2.png" alt="Humidity"
+                      class="imageNav-photo"></a>
+                   </div>
+                  <div>
+                   <h6>Cloudiness</h6>
+                    <a href="cloudiness.html"><img width="250 px" height="200 px" src="Resources/assets/images/Fig3.png" alt="Cloudiness"
+                      class="imageNav-photo"></a>
+                  </div>
+                  <div>
+                   <h6>Wind Speed</h6>
+                   <a href="wind_speed.html"><img width="250 px" height="200 px" src="Resources/assets/images/Fig4.png" alt="Wind Speed"
+                      class="imageNav-photo"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
-<h3>vs. Humidity</h3>
-          <img src=Resources/assets/images/Fig2.png alt="">
-
+          </body>
 
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>        
 
-          </body>
           </html>
           
